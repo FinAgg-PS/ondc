@@ -1,0 +1,95 @@
+{
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "CUSTOMIZATION"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "RECEIVER_NAME"
+                                    },
+                                    "value": "Kajal"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "MESSAGE"
+                                    },
+                                    "value": "HBD"
+                                }
+                            ]
+                        }
+                    ],
+                    "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548",
+                    "fulfillment_ids": [
+                        "42683cde-6925-42c0-86d1-a7ac567c975b"
+                    ],
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    }
+                }
+            ],
+            "fulfillments": [
+                {
+                    "type": "BPP_ONLINE_EMAIL",
+                    "id": "42683cde-6925-42c0-86d1-a7ac567c975b",
+                    "stops": [
+                        {
+                            "person": {
+                                "name": "Kajal"
+                            },
+                            "contact": {
+                                "phone": "9028158330",
+                                "email": "kajalj990@gmail.com"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "billing": {
+                "city": {
+                    "code": "std:020",
+                    "name": "Maval"
+                },
+                "name": "Kajal Jaiswal",
+                "phone": "9028158330",
+                "state": {
+                    "code": "MH",
+                    "name": "Maharashtra"
+                },
+                "address": "B18 Dwarkamai Housing Society  Lonavala Ambavane 410401",
+                "email": "kajalj990@gmail.com"
+            },
+            "provider": {
+                "id": "48e5d0f1-6255-4f22-8b06-ed16951aa4ec"
+            }
+        }
+    },
+    "context": {
+        "domain": "ONDC:FIS10",
+        "bpp_uri": "https://ondc.vistar.solutions/v1/bpp",
+        "bap_id": "ondc.ondcstore.com",
+        "ttl": "PT30S",
+        "version": "2.0.0",
+        "bpp_id": "ondc.vistar.solutions",
+        "location": {
+            "city": {
+                "code": "std:020"
+            },
+            "country": {
+                "code": "IND"
+            }
+        },
+        "timestamp": "2024-12-19T15:56:04.452Z",
+        "action": "init",
+        "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
+        "message_id": "3b3852e9-d334-45a9-9348-aae3a1f7de7c",
+        "transaction_id": "d1823947-f48f-4d98-bdd0-860402d7a5ec"
+    }
+}

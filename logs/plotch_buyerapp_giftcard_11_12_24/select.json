@@ -1,0 +1,50 @@
+{
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "price": {
+                        "currency": "INR",
+                        "offered_value": "5000"
+                    },
+                    "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548",
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    }
+                }
+            ],
+            "fulfillments": [
+                {
+                    "type": "BPP_ONLINE_EMAIL"
+                }
+            ],
+            "provider": {
+                "id": "48e5d0f1-6255-4f22-8b06-ed16951aa4ec"
+            }
+        }
+    },
+    "context": {
+        "domain": "ONDC:FIS10",
+        "bpp_uri": "https://ondc.vistar.solutions/v1/bpp",
+        "bap_id": "ondc.ondcstore.com",
+        "ttl": "PT30S",
+        "version": "2.0.0",
+        "bpp_id": "ondc.vistar.solutions",
+        "location": {
+            "city": {
+                "code": "std:020"
+            },
+            "country": {
+                "code": "IND"
+            }
+        },
+        "timestamp": "2024-12-19T15:55:54.406Z",
+        "action": "select",
+        "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
+        "message_id": "d365a5c8-cdad-4421-b6a1-2092f747ca4d",
+        "transaction_id": "d1823947-f48f-4d98-bdd0-860402d7a5ec"
+    }
+}
+

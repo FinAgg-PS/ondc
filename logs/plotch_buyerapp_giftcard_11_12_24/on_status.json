@@ -1,0 +1,281 @@
+{
+    "channel_id": "244278",
+    "message": {
+        "order": {
+            "status": "CANCELLED",
+            "fulfillments": [
+                {
+                    "state": {
+                        "descriptor": {
+                            "code": "CANCELLED"
+                        }
+                    },
+                    "type": "BPP_ONLINE_EMAIL",
+                    "id": "42683cde-6925-42c0-86d1-a7ac567c975b",
+                    "stops": [
+                        {
+                            "person": {
+                                "name": "Kajal"
+                            },
+                            "contact": {
+                                "phone": "9028158330",
+                                "email": "kajalj990@gmail.com"
+                            }
+                        }
+                    ],
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "CANCELLATION"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "CANCELLED_BY"
+                                    },
+                                    "value": "ondc.vistar.solutions"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "REASON_ID"
+                                    },
+                                    "value": "001"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "DESCRIPTION"
+                                    },
+                                    "value": "Order Cannot be fulfilled"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "TIMESTAMP"
+                                    },
+                                    "value": "2024-12-19T15:56:40.959Z"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "billing": {
+                "city": {
+                    "code": "-",
+                    "name": "Maval"
+                },
+                "name": "-",
+                "phone": "9028158330",
+                "state": {
+                    "code": "-",
+                    "name": "Maharashtra"
+                },
+                "address": "B18 Dwarkamai Housing Society  Lonavala Ambavane 410401",
+                "email": "kajalj990@gmail.com"
+            },
+            "items": [
+                {
+                    "price": {
+                        "currency": "INR",
+                        "value": "5000",
+                        "offered_value": "5000.00"
+                    },
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    },
+                    "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548",
+                    "fulfillment_ids": [
+                        "42683cde-6925-42c0-86d1-a7ac567c975b"
+                    ],
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "CUSTOMIZATION"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "RECEIVER_NAME"
+                                    },
+                                    "value": "Kajal"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "MESSAGE"
+                                    },
+                                    "value": ""
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "created_at": "2024-12-19T15:56:40.014Z",
+            "provider": {
+                "id": "48e5d0f1-6255-4f22-8b06-ed16951aa4ec"
+            },
+            "updated_at": "2024-12-19T15:56:41.031Z",
+            "payments": [
+                {
+                    "status": "PAID",
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "BUYER_FINDER_FEES"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "BUYER_FINDER_FEES_VALUE"
+                                    },
+                                    "value": "0"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor": {
+                                "code": "SETTLEMENT_DETAILS"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "SETTLEMENT_COUNTERPARTY"
+                                    },
+                                    "value": "BPP"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "SETTLEMENT_TYPE"
+                                    },
+                                    "value": "UPI"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "VIRTUAL_ADDRESS"
+                                    },
+                                    "value": "9967971282@paytm"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "ACCOUNT_NO"
+                                    },
+                                    "value": "188801501161"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "BENEFICIARY_NAME"
+                                    },
+                                    "value": "Vistar"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "BANK_NAME"
+                                    },
+                                    "value": "ICICI BANK"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "BRANCH_CODE"
+                                    },
+                                    "value": "ICIC00001888"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "BRANCH_NAME"
+                                    },
+                                    "value": "Kolshet"
+                                }
+                            ]
+                        }
+                    ],
+                    "url": "https://ondc.ondcstore.com/ondc/v1/244278/checkout",
+                    "collected_by": "BAP",
+                    "params": {
+                        "currency": "INR",
+                        "amount": "5000",
+                        "transaction_id": "order_PZ5lO7rGOdAK2I"
+                    },
+                    "type": "ON-ORDER",
+                    "id": "order_PZ5lO7rGOdAK2I"
+                }
+            ],
+            "quote": {
+                "breakup": [
+                    {
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "value": "5000",
+                                "offered_value": "5000"
+                            },
+                            "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548",
+                            "quantity": {
+                                "selected": {
+                                    "count": 0
+                                }
+                            }
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "ITEM"
+                    },
+                    {
+                        "item": {
+                            "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548"
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "TAX"
+                    },
+                    {
+                        "item": {
+                            "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548"
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "CONVENIENCE_FEE"
+                    }
+                ],
+                "price": {
+                    "currency": "INR",
+                    "value": "0.00"
+                },
+                "ttl": "P1D"
+            },
+            "id": "8a129c1a-090e-4bef-a6ba-4d55f6dcff0b"
+        },
+        "cancellation": {
+            "reason": {
+                "id": "003"
+            },
+            "cancelled_by": "ondc.vistar.solutions"
+        }
+    },
+    "context": {
+        "domain": "ONDC:FIS10",
+        "bpp_uri": "https://ondc.vistar.solutions/v1/bpp",
+        "bap_id": "ondc.ondcstore.com",
+        "version": "2.0.0",
+        "bpp_id": "ondc.vistar.solutions",
+        "location": {
+            "city": {
+                "code": "std:020"
+            },
+            "country": {
+                "code": "IND"
+            }
+        },
+        "timestamp": "2024-12-20T04:46:14.190Z",
+        "action": "on_status",
+        "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
+        "message_id": "715520b3-003e-40d4-8628-2ffb28c0bf4f",
+        "transaction_id": "d1823947-f48f-4d98-bdd0-860402d7a5ec"
+    }
+}

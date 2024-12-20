@@ -1,0 +1,26 @@
+{
+    "message": {
+        "order_id": "8a129c1a-090e-4bef-a6ba-4d55f6dcff0b"
+    },
+    "context": {
+        "domain": "ONDC:FIS10",
+        "bpp_uri": "https://ondc.vistar.solutions/v1/bpp",
+        "bap_id": "ondc.ondcstore.com",
+        "ttl": "PT30S",
+        "version": "2.0.0",
+        "bpp_id": "ondc.vistar.solutions",
+        "location": {
+            "city": {
+                "code": "std:020"
+            },
+            "country": {
+                "code": "IND"
+            }
+        },
+        "timestamp": "2024-12-20T04:46:11.344Z",
+        "action": "status",
+        "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
+        "message_id": "715520b3-003e-40d4-8628-2ffb28c0bf4f",
+        "transaction_id": "d1823947-f48f-4d98-bdd0-860402d7a5ec"
+    }
+}

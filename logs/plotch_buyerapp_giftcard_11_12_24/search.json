@@ -1,0 +1,47 @@
+{
+    "message": {
+        "intent": {
+            "category": {
+                "descriptor": {
+                    "code": "CARD"
+                }
+            },
+            "payment": {
+                "tags": [
+                    {
+                        "descriptor": {
+                            "code": "BUYER_FINDER_FEES"
+                        },
+                        "list": [
+                            {
+                                "descriptor": {
+                                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                                },
+                                "value": "3"
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    },
+    "context": {
+        "domain": "ONDC:FIS10",
+        "bap_id": "ondc.ondcstore.com",
+        "ttl": "PT30S",
+        "version": "2.0.0",
+        "location": {
+            "city": {
+                "code": "std:020"
+            },
+            "country": {
+                "code": "IND"
+            }
+        },
+        "timestamp": "2024-12-19T12:59:20.583Z",
+        "action": "search",
+        "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
+        "message_id": "4ec2ef2f-b21d-46b2-904e-a9be48d1ab5c",
+        "transaction_id": "74d6b976-9c8d-4ae8-a40f-17c8535cc694"
+    }
+}

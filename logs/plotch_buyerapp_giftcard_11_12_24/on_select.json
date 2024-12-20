@@ -1,0 +1,160 @@
+{
+    "message": {
+        "order": {
+            "items": [
+                {
+                    "tags": [
+                        {
+                            "descriptor": {
+                                "code": "ITEM_DETAILS"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "USABILITY"
+                                    },
+                                    "value": "ONLINE"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "TERMS_CONDITION"
+                                    },
+                                    "value": "https://ondc.vistar.solutions/catalogue/catalouge/terms/3a90adec-3cd7-442c-8567-2ed06c494548"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "REDEMPTION_INSTRUCTION"
+                                    },
+                                    "value": "NA"
+                                }
+                            ]
+                        },
+                        {
+                            "descriptor": {
+                                "code": "BRAND_DETAILS"
+                            },
+                            "list": [
+                                {
+                                    "descriptor": {
+                                        "code": "BRAND_NAME"
+                                    },
+                                    "value": "KFC"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "BRAND_PHONE"
+                                    },
+                                    "value": "+919999999999"
+                                },
+                                {
+                                    "descriptor": {
+                                        "code": "BRAND_EMAIL"
+                                    },
+                                    "value": "help@valuedesign.com"
+                                }
+                            ]
+                        }
+                    ],
+                    "price": {
+                        "currency": "INR",
+                        "offered_value": "5000",
+                        "value": "5000"
+                    },
+                    "time": {
+                        "duration": "P1Y",
+                        "label": "VALIDITY"
+                    },
+                    "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548",
+                    "fulfillment_ids": [
+                        "42683cde-6925-42c0-86d1-a7ac567c975b"
+                    ],
+                    "quantity": {
+                        "selected": {
+                            "count": 1
+                        }
+                    }
+                }
+            ],
+            "quote": {
+                "breakup": [
+                    {
+                        "item": {
+                            "price": {
+                                "currency": "INR",
+                                "offered_value": "5000",
+                                "value": "5000"
+                            },
+                            "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548",
+                            "quantity": {
+                                "selected": {
+                                    "count": 1
+                                }
+                            }
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "5000"
+                        },
+                        "title": "ITEM"
+                    },
+                    {
+                        "item": {
+                            "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548"
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "TAX"
+                    },
+                    {
+                        "item": {
+                            "id": "5000:3a90adec-3cd7-442c-8567-2ed06c494548"
+                        },
+                        "price": {
+                            "currency": "INR",
+                            "value": "0"
+                        },
+                        "title": "CONVENIENCE_FEE"
+                    }
+                ],
+                "price": {
+                    "currency": "INR",
+                    "value": "5000.00"
+                },
+                "ttl": "P1D"
+            },
+            "fulfillments": [
+                {
+                    "type": "BPP_ONLINE_EMAIL",
+                    "id": "42683cde-6925-42c0-86d1-a7ac567c975b"
+                }
+            ],
+            "provider": {
+                "id": "48e5d0f1-6255-4f22-8b06-ed16951aa4ec"
+            }
+        }
+    },
+    "context": {
+        "domain": "ONDC:FIS10",
+        "bpp_uri": "https://ondc.vistar.solutions/v1/bpp",
+        "bap_id": "ondc.ondcstore.com",
+        "ttl": "PT30S",
+        "version": "2.0.0",
+        "bpp_id": "ondc.vistar.solutions",
+        "location": {
+            "city": {
+                "code": "std:020"
+            },
+            "country": {
+                "code": "IND"
+            }
+        },
+        "timestamp": "2024-12-19T15:55:54.811Z",
+        "action": "on_select",
+        "bap_uri": "https://ondc.ondcstore.com/ondc/v1/244278/",
+        "message_id": "d365a5c8-cdad-4421-b6a1-2092f747ca4d",
+        "transaction_id": "d1823947-f48f-4d98-bdd0-860402d7a5ec"
+    }
+}
+

@@ -1,0 +1,219 @@
+{
+  "context": {
+    "domain": "ONDC:FIS13",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "action": "confirm",
+    "bap_id": "pramaan.ondc.org/beta/staging/mock/buyer",
+    "bap_uri": "https://pramaan.ondc.org/beta/staging/mock/buyer",
+    "bpp_id": "bagic.api.finarkein.in",
+    "bpp_uri": "https://bagic.api.finarkein.in/ondc/sn/bagic/",
+    "message_id": "09b34540-b048-4845-a895-9f36c0abca65",
+    "timestamp": "2024-12-20T10:07:32.421Z",
+    "transaction_id": "32cd90b6-15f2-48a2-9420-70915c74ef40",
+    "ttl": "PT10M",
+    "version": "2.0.0"
+  },
+  "message": {
+    "order": {
+      "quote": {
+        "id": "11-8450-0010277473-00",
+        "ttl": "PT15M",
+        "breakup": [
+          {
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "title": "BASE_PRICE"
+          },
+          {
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "title": "CONVIENCE_FEE"
+          },
+          {
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "title": "TAX"
+          },
+          {
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "title": "PROCESSING_FEE"
+          },
+          {
+            "price": {
+              "currency": "INR",
+              "value": "0.00"
+            },
+            "title": "ADD_ONS"
+          }
+        ],
+        "price": {
+          "currency": "INR",
+          "value": "0.00"
+        }
+      },
+      "fulfillments": [
+        {
+          "customer": {
+            "contact": {
+              "email": "ayush@gmail.com",
+              "phone": "9103334800"
+            },
+            "person": {
+              "name": "Ayush Yadav"
+            }
+          },
+          "id": "48cd00e0-871c-4e28-b6dd-6d088b333995",
+          "type": "POLICY"
+        }
+      ],
+      "items": [
+        {
+          "id": "8450-G",
+          "parent_item_id": "8450-Individual",
+          "xinput": {
+            "form": {
+              "id": "FO7"
+            },
+            "form_response": {
+              "status": "SUCCESS",
+              "submission_id": "42d4a435-3c45-3afa-942e-83b0e33143fb"
+            }
+          }
+        }
+      ],
+      "payments": [
+        {
+          "id": "219d561e-0973-4b94-8abf-a2db376af630",
+          "collected_by": "BPP",
+          "tags": [
+            {
+              "descriptor": {
+                "code": "BUYER_FINDER_FEES"
+              },
+              "display": false,
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "BUYER_FINDER_FEES_TYPE"
+                  },
+                  "value": "percent-annualized",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                  },
+                  "value": "1",
+                  "display": true
+                }
+              ]
+            },
+            {
+              "descriptor": {
+                "code": "SETTLEMENT_TERMS"
+              },
+              "display": false,
+              "list": [
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_WINDOW"
+                  },
+                  "value": "PT60M",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "code": "SETTLEMENT_BASIS"
+                  },
+                  "value": "Delivery",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "code": "DELAY_INTEREST"
+                  },
+                  "value": "2.5",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "code": "STATIC_TERMS"
+                  },
+                  "value": "https://www.icicibank.com/personal-banking/loans/personal-loan",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "code": "OFFLINE_CONTRACT"
+                  },
+                  "value": "true",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "MANDATORY_ARBITRATION",
+                    "code": "MANDATORY_ARBITRATION"
+                  },
+                  "value": "true",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "COURT_JURISDICTION",
+                    "code": "COURT_JURISDICTION"
+                  },
+                  "value": "Pune",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "SETTLEMENT_AMOUNT",
+                    "code": "SETTLEMENT_AMOUNT"
+                  },
+                  "value": "0.00",
+                  "display": true
+                },
+                {
+                  "descriptor": {
+                    "name": "SETTLEMENT_TYPE",
+                    "code": "SETTLEMENT_TYPE"
+                  },
+                  "value": "enach",
+                  "display": true
+                }
+              ]
+            }
+          ],
+          "params": {
+            "transaction_id": "219d561e-0973-4b94-8abf-a2db376af630",
+            "bank_account_number": "0000 0000 0000 0000",
+            "bank_code": "Test bank",
+            "currency": "INR",
+            "amount": "0.00"
+          },
+          "status": "PAID",
+          "type": "PRE-FULFILLMENT"
+        }
+      ],
+      "provider": {
+        "id": "BAGIC"
+      }
+    }
+  }
+}

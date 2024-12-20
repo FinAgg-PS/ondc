@@ -1,0 +1,93 @@
+{
+  "context": {
+    "domain": "ONDC:FIS13",
+    "location": {
+      "country": {
+        "code": "IND"
+      },
+      "city": {
+        "code": "*"
+      }
+    },
+    "version": "2.0.0",
+    "action": "search",
+    "transaction_id": "32cd90b6-15f2-48a2-9420-70915c74ef40",
+    "message_id": "f032916e-7b06-45a4-ba15-11a5dac12bee",
+    "timestamp": "2024-12-20T10:02:23.296Z",
+    "bap_uri": "https://pramaan.ondc.org/beta/staging/mock/buyer",
+    "bap_id": "pramaan.ondc.org/beta/staging/mock/buyer",
+    "ttl": "PT15S"
+  },
+  "message": {
+    "intent": {
+      "category": {
+        "descriptor": {
+          "code": "HEALTH_INSURANCE"
+        }
+      },
+      "payment": {
+        "collected_by": "BPP",
+        "tags": [
+          {
+            "descriptor": {
+              "code": "BUYER_FINDER_FEES"
+            },
+            "display": false,
+            "list": [
+              {
+                "descriptor": {
+                  "code": "BUYER_FINDER_FEES_TYPE"
+                },
+                "value": "percent-annualized"
+              },
+              {
+                "descriptor": {
+                  "code": "BUYER_FINDER_FEES_PERCENTAGE"
+                },
+                "value": "1"
+              }
+            ]
+          },
+          {
+            "descriptor": {
+              "code": "SETTLEMENT_TERMS"
+            },
+            "display": false,
+            "list": [
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_WINDOW"
+                },
+                "value": "PT60M"
+              },
+              {
+                "descriptor": {
+                  "code": "SETTLEMENT_BASIS"
+                },
+                "value": "Delivery"
+              },
+              {
+                "descriptor": {
+                  "code": "DELAY_INTEREST"
+                },
+                "value": "2.5"
+              },
+              {
+                "descriptor": {
+                  "code": "STATIC_TERMS"
+                },
+                "value": "https://www.icicibank.com/personal-banking/loans/personal-loan"
+              },
+              {
+                "descriptor": {
+                  "code": "OFFLINE_CONTRACT"
+                },
+                "value": "true"
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
